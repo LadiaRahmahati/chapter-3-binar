@@ -1,0 +1,71 @@
+.darkBlue {
+    color: #0D28A6;
+}
+.purpleNude{
+    color: #cfd4ed;
+}
+.bg{
+    background-color: #F1F3FF;
+}
+body {
+    font-family: Helvetica;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 36px;
+}
+.bi-star-fill{
+    color: #F9CC00;
+}
+.img_car{
+    margin-left:  15px;
+}
+.kolom1{
+    padding-left: 9%;
+    padding-top: 9%;
+}
+.kolom1 p{
+    margin-right: 15%;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 275px;
+    background-color: #F1F3FF;
+    border-radius: 8px;
+    padding: 14px;
+}
+.img-area{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 70px;
+}
+.img-text{
+    display: block;
+    text-align: left;
+    float:right;
+    width:75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.accordion .card-header{
+    font-family: Helvetica;
+    font-size: 14px;
+}
+.accordion .card-header::after{
+	font-family: 'FontAwesome';
+	content: "\f077";
+	float: right;
+}
+
+.accordion .card-header.collapsed::after{
+	content: "\f078";
+}
+.accordion .card-block .card-body{
+    font-size: 14px;
+}
